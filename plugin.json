@@ -1,0 +1,25 @@
+{
+	"ver": 1,
+	"name": "Thymer auto-scroll",
+	"icon": "arrows-maximize",
+	"off": false,
+	"item_name": "Note",
+	"description": "Jumps the screen when the cursor hits the bottom margin.",
+	"show_sidebar_items": false,
+	"show_cmdpal_items": true,
+	"views": [],
+	"fields": [],
+	"page_field_ids": [],
+	"sidebar_record_sort_field_id": "updated_at",
+	"sidebar_record_sort_dir": "desc",
+	"managed": {
+		"fields": false,
+		"views": false,
+		"sidebar": false
+	},
+	"custom": {
+		"triggerThreshold": 0.85,
+		"jumpTarget": 0.25
+	},
+	"home": false
+}
